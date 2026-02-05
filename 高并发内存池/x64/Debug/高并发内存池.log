@@ -1,0 +1,166 @@
+﻿  Benchmark.cpp
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Common.h(237,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“Benchmark.cpp”)
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(47,27): error C4839: 将类 "std::atomic<unsigned __int64>" 作为可变参数函数的参数的非标准用法
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(47,27):
+      不会调用构造函数和析构函数；该类的位副本将作为参数进行传递
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2131,8):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(47,42): error C2280: “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 尝试引用已删除的函数
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2151,5):
+      参见“std::atomic<unsigned __int64>::atomic”的声明
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2151,5):
+      “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 已隐式删除函数
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(46,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(46,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(46,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(46,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(46,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(46,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(46,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 4 拥有了类型“std::atomic<unsigned __int64>”
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(50,27): error C4839: 将类 "std::atomic<unsigned __int64>" 作为可变参数函数的参数的非标准用法
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(50,27):
+      不会调用构造函数和析构函数；该类的位副本将作为参数进行传递
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2131,8):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(50,40): error C2280: “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 尝试引用已删除的函数
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2151,5):
+      参见“std::atomic<unsigned __int64>::atomic”的声明
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2151,5):
+      “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 已隐式删除函数
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(49,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(49,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(49,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(49,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(49,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(49,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(49,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 4 拥有了类型“std::atomic<unsigned __int64>”
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“_Ty”
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9): warning C4477:         with
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9): warning C4477:         [
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9): warning C4477:             _Ty=unsigned __int64
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9): warning C4477:         ]
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9):
+      请考虑在格式字符串中使用“%llu”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9):
+      请考虑在格式字符串中使用“%Iu”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(52,9):
+      请考虑在格式字符串中使用“%I64u”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(100,27): error C4839: 将类 "std::atomic<unsigned __int64>" 作为可变参数函数的参数的非标准用法
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(100,27):
+      不会调用构造函数和析构函数；该类的位副本将作为参数进行传递
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2131,8):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(100,42): error C2280: “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 尝试引用已删除的函数
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2151,5):
+      参见“std::atomic<unsigned __int64>::atomic”的声明
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2151,5):
+      “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 已隐式删除函数
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(99,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(99,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(99,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(99,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(99,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(99,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(99,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 4 拥有了类型“std::atomic<unsigned __int64>”
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(103,27): error C4839: 将类 "std::atomic<unsigned __int64>" 作为可变参数函数的参数的非标准用法
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(103,27):
+      不会调用构造函数和析构函数；该类的位副本将作为参数进行传递
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2131,8):
+      参见“std::atomic<unsigned __int64>”的声明
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(103,40): error C2280: “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 尝试引用已删除的函数
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2151,5):
+      参见“std::atomic<unsigned __int64>::atomic”的声明
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\atomic(2151,5):
+      “std::atomic<unsigned __int64>::atomic(const std::atomic<unsigned __int64> &)”: 已隐式删除函数
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(102,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(102,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(102,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(102,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(102,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(102,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(102,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 4 拥有了类型“std::atomic<unsigned __int64>”
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“size_t”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9):
+      请考虑在格式字符串中使用“%zu”
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“_Ty”
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9): warning C4477:         with
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9): warning C4477:         [
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9): warning C4477:             _Ty=unsigned __int64
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9): warning C4477:         ]
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9):
+      请考虑在格式字符串中使用“%llu”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9):
+      请考虑在格式字符串中使用“%Iu”
+      C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Benchmark.cpp(105,9):
+      请考虑在格式字符串中使用“%I64u”
+  
+  CentralCache.cpp
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Common.h(237,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“CentralCache.cpp”)
+  
+  ConcurrentAlloc.h
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Common.h(237,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“ConcurrentAlloc.h”)
+  
+  PageCache.cpp
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Common.h(237,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“PageCache.cpp”)
+  
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\PageCache.cpp(29,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ThreadCache.cpp
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Common.h(237,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“ThreadCache.cpp”)
+  
+  UnitTest.cpp
+C:\Users\Administrator\source\repos\高并发内存池\高并发内存池\Common.h(237,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“UnitTest.cpp”)
+  
+  正在生成代码...
